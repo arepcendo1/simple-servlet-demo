@@ -30,7 +30,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<title>Simple Servlet Demo</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1>Hello from Jenkins + GitHub + Tomcat</h1>");
+        out.println("<h1>Hello from Jenkins Pipeline - Version 2</h1>");
         out.println("<p>This servlet was deployed through Jenkins pipeline.</p>");
         out.println("</body>");
         out.println("</html>");
